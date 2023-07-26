@@ -523,4 +523,99 @@ h3.my-profession{
     color: var(--text-black-900);
 }
 
+.about .about-content .timeline .timeline-text {
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+    color: var(--text-black-700);
+}
 
+
+/*Service*/
+
+.service .container{
+    padding-bottom: 40px;
+}
+.service .service-item{
+    margin-bottom: 30px;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.service .service-item .service-item-inner{
+    background-color: var(---);
+    border: 1px solid var(--bg-black-50);
+    border-radius: 10px;
+    padding: 30px 15px;
+    text-align: center;
+    transition: all 0.5 ease;
+}
+
+.service .service-item .service-item-inner:hover {
+    box-shadow: 0 0 5px rgba(48,46,77,0.75);
+}
+
+.service .service-item .service-item-inner .icon{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 30px;
+    text-align: center;
+    transition: all 0.3 s ease;
+}
+
+
+.service .service-item .service-item-inner .icon .fa{
+    font-size: 40px;
+    line-height: 60px;
+    color: var(--skin-color);
+    transition: all 0.1s ease;
+}
+
+.service .service-item .service-item-inner:hover .icon{
+    background: var(--skin-color);
+}
+.service .service-item .service-item-inner:hover .icon .fa{
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.service .service-item .service-item-inner h4{
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: var (var(--text-black-900));
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.service .service-item .service-item-inner p{
+    font-size: 16px;
+    color: var(--text-black-700);
+    line-height: 25px;
+}
+
+.service .service-item .service-item-inner p{
+    font-size: 16px;
+    color: var(--text-black-700);
+    line-height: 25px;
+}
+
+ .service .service-item .service-item-inner ul {
+    font-size: 16px;
+    text-align: justify;
+    color: var(--text-black-700);
+    line-height: 25px;
+ }
+
+
+ /*Portfolio*/
+ .portfolio .portfolio-heading{
+    flex: 0 0 100%;
+    max-width: 100%;
+ }
+
+ .portfolio .portfolio-heading h2{
+    color: var(--text-black-900);
+    font-weight: 500;
+ }
