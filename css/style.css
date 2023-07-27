@@ -672,7 +672,8 @@ h3.my-profession{
 
  .portfolio .portfolio-heading h2{
     color: var(--text-black-900);
-    font-weight: 500;
+    font-weight: 800;
+    font-family: 'Poppins';
  }
 
  .portfolio .portfolio-item{
