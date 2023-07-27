@@ -110,3 +110,11 @@ function downloadResume() {
     link.click();
     document.body.removeChild(link);
 }
+
+
+const textInput = document.getElementById("input-textarea")
+const textArea = document.getElementById("textarea")
+
+textInput.addEventListener("input", function () {
+    textInput.value = textArea.value;
+});
