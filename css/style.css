@@ -782,6 +782,13 @@ h3.my-profession{
     height: 50px;
     padding: 0 50px;
 }
+.contact .contact-form .btn[disabled] {
+    /* Add styles to visually disable the button */
+    pointer-events: none;
+    opacity: 0.6;
+    /* You can adjust the opacity to your preference */
+    cursor: not-allowed;
+}
 
 @media (max-width:1199px){
     .section .container{
