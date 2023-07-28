@@ -8,6 +8,14 @@
     --text-black-700:#504e70;
 }
 
+body.dark{
+    --bgblack-900: #151515;
+    --bg-black-100: #222222;
+    --bg-black-50: #393939;
+    --text-black-900: #edcece;
+    --text-black-700: #bbb5b5;
+}
+
 body{
     margin:0;
     padding: 0;
@@ -634,7 +642,7 @@ h3.my-profession{
 .service .service-item .service-item-inner h4{
     font-size: 24px;
     margin-bottom: 15px;
-    color: var (var(--text-black-900));
+    color: var(--text-black-900);
     font-weight: 700;
     text-transform: capitalize;
 }
