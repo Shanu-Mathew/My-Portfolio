@@ -865,3 +865,31 @@ h3.my-profession{
         max-width: 100%;
     }
 }
+
+
+
+/*Thanks HTML*/
+.thanks-main-content{
+    background: var(--bgblack-900);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid var(--skin-color);
+}
+
+.thanks-main-content .thanks-container{
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.thanks-main-content .thanks-container h1{
+    font-weight: 900;
+    font-size: 80px;
+}
+.thanks-main-content .thanks-container p {
+    font-weight: 500;
+    font-size: 20px;
+}
