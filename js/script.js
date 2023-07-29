@@ -118,3 +118,28 @@ const textArea = document.getElementById("textarea")
 textInput.addEventListener("input", function () {
     textInput.value = textArea.value;
 });
+
+
+
+/* ======================== Portfolio Image Github Link ========================  */
+
+const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+// Add a click event listener to each portfolio item
+portfolioItems.forEach(item => {
+    // Find the image element and link element within each portfolio item
+    const image = item.querySelector('.portfolio-img img');
+    const link = item.querySelector('a');
+
+    // Add a click event listener to the image
+    image.addEventListener('click', () => {
+        // Get the URL from the link and open it in a new tab/window
+        const url = link.getAttribute('href');
+        if (url) {
+            window.open(url, '_blank');
+        }
+    });
+});
+
+
+
