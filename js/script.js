@@ -25,7 +25,6 @@ for(let i=0;i<totalNavList;i++){
         for(let j=0;j<totalNavList;j++){
             if(navList[j].querySelector("a").classList.contains("active")){
                 addBackSection(j);
-                // allSection[j].classList.add("back-section");
             }
 
             navList[j].querySelector("a").classList.remove("active");
@@ -53,7 +52,12 @@ function showSection(element){
         allSection[i].classList.remove("active");
     }
     const target=element.getAttribute("href").split('#')[1];
-    document.querySelector("#"+target).classList.add("active")
+    const targetSection = document.querySelector("#" + target);
+    targetSection.classList.add("active")
+    
+
+    // Scroll to the top of the target section
+    targetSection.scrollTop = 0;
 }
 function updateNav(element){
     for(let i=0;i<totalNavList;i++){
