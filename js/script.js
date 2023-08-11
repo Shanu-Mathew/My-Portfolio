@@ -1,6 +1,6 @@
 /* ======================== Typing Animation ========================  */
 var typed=new Typed(".typing", {
-    strings:["Machine Learning Developer....","Data Scientist....","Software Engineer....","Data Analyst....","Web Developer....","Freelancer"],
+    strings:["Machine Learning Developer......","Data Scientist......","Software Engineer......","Data Analyst......","Web Developer......","Freelancer......"],
     typeSpeed:60,
     BackSpeed:30,
     loop:true
@@ -132,7 +132,7 @@ const portfolioItems = document.querySelectorAll('.portfolio-item');
 // Add a click event listener to each portfolio item
 portfolioItems.forEach(item => {
     // Find the image element and link element within each portfolio item
-    const image = item.querySelector('.portfolio-img img');
+    const image = item.querySelector('.portfolio-img .portfolio-view');
     const link = item.querySelector('a');
 
     // Add a click event listener to the image
