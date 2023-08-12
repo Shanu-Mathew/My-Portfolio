@@ -147,3 +147,14 @@ portfolioItems.forEach(item => {
 
 
 
+/* ======================== Linktree Link ========================  */
+const linktree_icon = document.querySelector(".linktree")
+const linktree_link=  document.querySelector(".linktree-link")
+
+linktree_icon.addEventListener('click', () => {
+    // Get the URL from the link and open it in a new tab/window
+    const url = linktree_link.getAttribute('href');
+    if (url) {
+        window.open(url, '_blank');
+    }
+});

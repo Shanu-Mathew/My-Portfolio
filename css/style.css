@@ -309,6 +309,14 @@ section {
 }
 
 
+.aside .linktree{
+    position: absolute;
+    bottom: 40px;
+    font-size: 43px;
+    color: var(--skin-color);
+    border-bottom: 1px solid var(--bg-black-50);
+}
+
 /*Home*/
 
 .home {
