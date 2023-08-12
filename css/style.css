@@ -414,7 +414,7 @@ h3.my-profession {
 .about .about-content .about-text p {
     font-family: 'Poppins';
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 25px;
     color: var(--text-black-700);
 }
@@ -588,13 +588,13 @@ h3.my-profession {
 
 .about .about-content .timeline .timeline-title {
     font-weight: 700;
-    font-size: 23px;
+    font-size: 21px;
     margin-bottom: 15px;
     text-transform: capitalize;
     color: var(--text-black-900);
 }
 
-.about .about-content .timeline .timeline-subtitle{
+.about .about-content .timeline .timeline-subtitle {
     font-weight: 600;
     font-size: 17px;
     color: rgb(245, 174, 235);
@@ -804,7 +804,7 @@ h3.my-profession {
     padding-bottom: 50px;
 }
 
-.contact-title.second{
+.contact-title.second {
     padding-top: 50px;
 }
 
