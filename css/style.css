@@ -357,6 +357,7 @@ h3.my-profession {
     font-weight: 500;
     font-size: 17px;
     margin-bottom: 30px;
+    text-align: justify;
     color: var(--text-black-700);
 }
 
@@ -423,6 +424,7 @@ h3.my-profession {
     font-family: 'Poppins';
     font-weight: 500;
     font-size: 14px;
+    text-align: justify;
     line-height: 25px;
     color: var(--text-black-700);
 }
@@ -677,15 +679,11 @@ h3.my-profession {
 }
 
 .service .service-item .service-item-inner p {
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 18px;
     color: var(--text-black-700);
     line-height: 25px;
-}
-
-.service .service-item .service-item-inner p {
-    font-size: 16px;
-    color: var(--text-black-700);
-    line-height: 25px;
+    margin-bottom: 10px;
 }
 
 .service .service-item .service-item-inner ul {
@@ -777,15 +775,15 @@ h3.my-profession {
     color: var(--skin-color);
     font-family: 'Poppins';
     font-weight: 700;
-    font-size: 19px;
+    font-size: 18px;
     padding-left: 10px;
     padding-top: 5px;
 }
 
 .portfolio .portfolio-item-inner .portfolio-details p {
-    font-family: 'Poppins';
+    /* font-family: 'Poppins'; */
     font-weight: 500;
-    font-size: 15px;
+    font-size: 18px;
     color: var(--text-black-700);
     text-align: justify;
     padding: 10px;
